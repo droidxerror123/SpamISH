@@ -50,18 +50,23 @@ echo "00)keluar"
 echo -e $white""
 read -p "[ISH==> " act;
 
-if
-[ $act = 01 ] || [ $act = 01 ]
+if [ $act = 01 ] || [ $act = 01 ]
 then
 clear
 toilet "T-Sel"
 php 1.php
 fi
 
-if
-[ $act= 02 ] || [ $act = 02 ]
+if [ $act= 02 ] || [ $act = 02 ]
 then
 clear
 toilet -f mono12 -F gay "Jd.Id"
 php 2.php
+fi
+
+if [ $act = 03 ] || [ $act = 03 ]
+then
+clear
+figlet "tokopedia"
+php 3.php
 fi
