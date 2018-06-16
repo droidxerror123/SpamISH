@@ -1,0 +1,2 @@
+# SpamISH
+Kumpulan Spam
