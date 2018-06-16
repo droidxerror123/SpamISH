@@ -43,7 +43,7 @@ echo -e $red"×××××××××××××××××××××××××××××××××�
 echo "01)Telkomsel"
 echo "02)jd.id"
 echo "03)toko pedia"
-echo "04)Spam telepon"
+echo "04)Spam call"
 echo "05)matahari mall"
 echo "00)keluar"
 echo -e $white""
@@ -68,4 +68,11 @@ then
 clear
 figlet "tokopedia"
 php 3.php
+fi
+
+if [ $act = 04 ] || [ $act = 04 ]
+then
+clear
+figlet "spam call"
+php 4.php
 fi
