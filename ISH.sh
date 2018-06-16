@@ -74,5 +74,5 @@ if [ $act = 04 ] || [ $act = 04 ]
 then
 clear
 figlet "spam call"
-php 4.php
+php 4.sh
 fi
