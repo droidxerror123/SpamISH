@@ -39,13 +39,14 @@ echo -e $yellow"=Kontak :089606402413                       ="
 echo -e $red"=Date   :16-06-2018                            ="
 echo -e $yellow"================================================"
 echo ""
-echo -e $red"××××××××××××××××××××××××××××××××××××"
-echo "01)Telkomsel"
-echo "02)jd.id"
-echo "03)toko pedia"
-echo "04)Spam call"
-echo "05)matahari mall"
-echo "00)keluar"
+echo -e $red"×××××××××××××××××××××××××××××××××"
+echo "01)Telkomsel×"
+echo -e $yellow"02)jd.id×"
+echo "03)toko pedia×"
+echo "04)Spam call×"
+echo -e $lightgreen"05)matahari mall×"
+echo "00)keluar×"
+echo "×××××××××××××××××××××××××"
 echo -e $white""
 read -p "[ISH==> " act;
 
@@ -81,3 +82,16 @@ if [ $act = 05 ] || [ $act = 05 ]
 then
 clear
 figlet "MTHR mall"
+php 5.php
+fi
+
+if [ $act = 00 ] || [ $act = 00 ]
+then
+echo -e $green" thanks udah mau nyoba "
+sleep 1
+echo -e $yellow" ISH was here "
+sleep 1
+echo -e $gold" mungkin agak sakit.... "
+sleep 1
+exit
+fi
