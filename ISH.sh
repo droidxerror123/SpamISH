@@ -13,7 +13,7 @@ white='\e[1;37m'
 red='\e[1;31m'
 yellow='\e[1;33m'
 sleep 1
-toilet -f standard -F gay "T.HUNTER"
+toilet -f standard -F gay "SpamISH"
 echo ""
 
 ###################################################
@@ -40,13 +40,14 @@ echo -e $red"=Date   :16-06-2018                            ="
 echo -e $yellow"================================================"
 echo ""
 echo -e $red"×××××××××××××××××××××××××××××××××"
-echo "01)Telkomsel×"
-echo -e $yellow"02)jd.id×"
-echo "03)toko pedia×"
-echo "04)Spam call×"
-echo -e $lightgreen"05)matahari mall×"
-echo "00)keluar×"
-echo "×××××××××××××××××××××××××"
+echo -e $red"01)Telkomsel                    ×"
+echo -e $red"02)jd.id                        ×"
+echo -e $yellow"03)toko pedia                ×"
+echo -e $yellow"04)Spam call                 ×"
+echo -e $yellow"05)matahari mall             ×"
+echo -e $lightgreen"06)tri                   ×"
+echo -e $lightgreen"00)keluar                ×"
+echo -e $lightgreen"×××××××××××××××××××××××××××××××××"
 echo -e $white""
 read -p "[ISH==> " act;
 
@@ -83,6 +84,12 @@ then
 clear
 figlet "MTHR mall"
 php 5.php
+fi
+
+if [ $act = 06 ] || [ $act = 06 ]
+then
+clear
+python2 tri.py
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
