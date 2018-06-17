@@ -10,12 +10,12 @@ white='\033[37;1m'
 gold='\033[33;1m'
 sleep 1
 
-echo -e $red"================================================"
-echo -e $yellow"=Author :./Droid_X_ISH                      ="
-echo -e $red"=Team   :Indonesian Security Hunter            ="
-echo -e $yellow"=Kontak :089606402413                       ="
-echo -e $red"=Date   :16-06-2018                            ="
-echo -e $yellow"================================================"
+echo "================================================"
+echo "=Author :./Droid_X_ISH                         ="
+echo "=Team   :Indonesian Security Hunter            ="
+echo "=Kontak :089606402413                          ="
+echo "=Date   :16-06-2018                            ="
+echo "================================================"
 echo ""
 echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
 echo "01)Telkomsel                    >"
