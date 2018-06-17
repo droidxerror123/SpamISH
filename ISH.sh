@@ -67,8 +67,7 @@ fi
 if [ $act = 06 ] || [ $act = 06 ]
 then
 clear
-cd module
-python2 tri.py
+sh Tri.sh
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
