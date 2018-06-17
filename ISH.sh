@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/system/xbin/bash
 # Auto gelud
 # coded By ./Droid
 # Bersihkan Layar
