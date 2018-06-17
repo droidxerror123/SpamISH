@@ -67,7 +67,7 @@ fi
 if [ $act = 06 ] || [ $act = 06 ]
 then
 clear
-toilet -f standard -F gay "Spam Tri"
+toilet -f mono12 -F gay "Spam Tri"
 sh Tri.sh
 fi
 
