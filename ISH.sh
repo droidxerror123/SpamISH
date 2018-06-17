@@ -74,5 +74,10 @@ if [ $act = 04 ] || [ $act = 04 ]
 then
 clear
 figlet "spam call"
-php 4.sh
+sh 4.sh
 fi
+
+if [ $act = 05 ] || [ $act = 05 ]
+then
+clear
+figlet "MTHR mall"
